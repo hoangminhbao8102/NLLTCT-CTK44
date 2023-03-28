@@ -1,0 +1,4 @@
+﻿  Program.cpp
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 1\Hướng Dẫn\Lab01_Bai05_HangSo\Lab01_Bai05_HangSo\Program.cpp(18,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 1\Hướng Dẫn\Lab01_Bai05_HangSo\Lab01_Bai05_HangSo\Program.cpp(19,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Lab01_Bai05_HangSo.vcxproj -> D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 1\Hướng Dẫn\Lab01_Bai05_HangSo\x64\Debug\Lab01_Bai05_HangSo.exe
