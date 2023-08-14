@@ -1,0 +1,2 @@
+﻿  Program.cpp
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 6\Hướng Dẫn\Lab06_D_Bai4\Lab06_D_Bai4\Program.cpp(21): error C4700: uninitialized local variable 'kt' used

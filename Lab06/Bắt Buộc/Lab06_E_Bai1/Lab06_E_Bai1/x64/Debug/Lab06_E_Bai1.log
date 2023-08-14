@@ -1,0 +1,4 @@
+﻿  Program.cpp
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 6\Bắt Buộc\Lab06_E_Bai1\Lab06_E_Bai1\thuvien.h(76,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 6\Bắt Buộc\Lab06_E_Bai1\Lab06_E_Bai1\Program.cpp(14,22): warning C4101: 'ketQua': unreferenced local variable
+  Lab06_E_Bai1.vcxproj -> D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 6\Bắt Buộc\Lab06_E_Bai1\x64\Debug\Lab06_E_Bai1.exe

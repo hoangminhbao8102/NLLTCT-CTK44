@@ -1,0 +1,4 @@
+﻿  Program.cpp
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 5\Bắt Buộc\Lab05_E_Bai6\Lab05_E_Bai6\ThuVien.h(31,9): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 5\Bắt Buộc\Lab05_E_Bai6\Lab05_E_Bai6\ThuVien.h(37,13): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Lab05_E_Bai6.vcxproj -> D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 5\Bắt Buộc\Lab05_E_Bai6\x64\Debug\Lab05_E_Bai6.exe
