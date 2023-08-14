@@ -1,0 +1,6 @@
+﻿  Program.cpp
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai03_SoNguyenTo\Lab04_Bai03_SoNguyenTo\ThuVien.h(22,20): warning C4018: '<=': signed/unsigned mismatch
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai03_SoNguyenTo\Lab04_Bai03_SoNguyenTo\ThuVien.h(34,20): warning C4018: '<=': signed/unsigned mismatch
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai03_SoNguyenTo\Lab04_Bai03_SoNguyenTo\ThuVien.h(44,20): warning C4018: '<=': signed/unsigned mismatch
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai03_SoNguyenTo\Lab04_Bai03_SoNguyenTo\ThuVien.h(53,20): warning C4018: '<=': signed/unsigned mismatch
+  Lab04_Bai03_SoNguyenTo.vcxproj -> D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai03_SoNguyenTo\x64\Debug\Lab04_Bai03_SoNguyenTo.exe

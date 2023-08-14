@@ -1,0 +1,8 @@
+﻿  Program.cpp
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai06_SoFibonacci\Lab04_Bai06_SoFibonacci\ThuVien.h(8,20): warning C4018: '<': signed/unsigned mismatch
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai06_SoFibonacci\Lab04_Bai06_SoFibonacci\ThuVien.h(28,37): warning C4018: '<=': signed/unsigned mismatch
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai06_SoFibonacci\Lab04_Bai06_SoFibonacci\ThuVien.h(38,20): warning C4018: '<=': signed/unsigned mismatch
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai06_SoFibonacci\Lab04_Bai06_SoFibonacci\Menu.h(37,30): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai06_SoFibonacci\Lab04_Bai06_SoFibonacci\Menu.h(42,31): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai06_SoFibonacci\Lab04_Bai06_SoFibonacci\Menu.h(46,25): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+  Lab04_Bai06_SoFibonacci.vcxproj -> D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai06_SoFibonacci\x64\Debug\Lab04_Bai06_SoFibonacci.exe

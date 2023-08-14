@@ -1,0 +1,7 @@
+﻿  Program.cpp
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai04_UocSo\Lab04_Bai04_UocSo\ThuVien.h(8,20): warning C4018: '<=': signed/unsigned mismatch
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai04_UocSo\Lab04_Bai04_UocSo\ThuVien.h(15,20): warning C4018: '<=': signed/unsigned mismatch
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai04_UocSo\Lab04_Bai04_UocSo\ThuVien.h(23,20): warning C4018: '<=': signed/unsigned mismatch
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai04_UocSo\Lab04_Bai04_UocSo\ThuVien.h(36,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai04_UocSo\Lab04_Bai04_UocSo\ThuVien.h(41,20): warning C4018: '<': signed/unsigned mismatch
+  Lab04_Bai04_UocSo.vcxproj -> D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai04_UocSo\x64\Debug\Lab04_Bai04_UocSo.exe
