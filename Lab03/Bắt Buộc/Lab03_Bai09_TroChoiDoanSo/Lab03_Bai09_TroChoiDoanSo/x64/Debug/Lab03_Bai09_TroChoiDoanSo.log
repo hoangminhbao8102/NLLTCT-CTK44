@@ -1,0 +1,3 @@
+﻿  Program.cpp
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 3\Bắt Buộc\Lab03_Bai09_TroChoiDoanSo\Lab03_Bai09_TroChoiDoanSo\Program.cpp(13,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab03_Bai09_TroChoiDoanSo.vcxproj -> D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 3\Bắt Buộc\Lab03_Bai09_TroChoiDoanSo\x64\Debug\Lab03_Bai09_TroChoiDoanSo.exe
