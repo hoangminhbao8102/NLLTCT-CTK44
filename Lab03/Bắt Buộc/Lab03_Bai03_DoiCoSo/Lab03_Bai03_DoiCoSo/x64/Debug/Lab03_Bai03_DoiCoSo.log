@@ -1,0 +1,3 @@
+﻿  Program.cpp
+D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 3\Bắt Buộc\Lab03_Bai03_DoiCoSo\Lab03_Bai03_DoiCoSo\Program.cpp(84,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Lab03_Bai03_DoiCoSo.vcxproj -> D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 3\Bắt Buộc\Lab03_Bai03_DoiCoSo\x64\Debug\Lab03_Bai03_DoiCoSo.exe
