@@ -1,4 +1,0 @@
-﻿  Program.cpp
-D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai02_DoiCoSo\Lab04_Bai02_DoiCoSo\ThuVien.h(41,12): warning C4244: 'return': conversion from 'double' to 'unsigned int', possible loss of data
-D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai02_DoiCoSo\Lab04_Bai02_DoiCoSo\ThuVien.h(49,9): warning C4018: '<': signed/unsigned mismatch
-  Lab04_Bai02_DoiCoSo.vcxproj -> D:\Nguyên lý lập trình cấu trúc\Bài Tập\Bài 4\Bắt Buộc\Lab04_Bai02_DoiCoSo\x64\Debug\Lab04_Bai02_DoiCoSo.exe
