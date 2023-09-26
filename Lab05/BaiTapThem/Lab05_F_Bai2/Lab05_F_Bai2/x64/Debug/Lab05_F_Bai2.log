@@ -1,3 +1,0 @@
-﻿  Program.cpp
-E:\Nguyên lý lập trình cấu trúc\NLLTCT-CTK44\Lab05\BaiTapThem\Lab05_F_Bai2\Lab05_F_Bai2\ThuVien.h(93,45): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
-  Lab05_F_Bai2.vcxproj -> E:\Nguyên lý lập trình cấu trúc\NLLTCT-CTK44\Lab05\BaiTapThem\Lab05_F_Bai2\x64\Debug\Lab05_F_Bai2.exe

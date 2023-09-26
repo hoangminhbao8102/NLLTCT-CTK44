@@ -5,6 +5,8 @@ using namespace std;
 
 #include "ThuVien.h"
 
+#define MAX 1000
+
 void ChayChuongTrinh();
 
 int main() {
@@ -15,7 +17,7 @@ int main() {
 void ChayChuongTrinh()
 {
 	char kt;
-	int n, a[i];
+	int n, a[MAX];
 	do
 	{
 		system("CLS");
