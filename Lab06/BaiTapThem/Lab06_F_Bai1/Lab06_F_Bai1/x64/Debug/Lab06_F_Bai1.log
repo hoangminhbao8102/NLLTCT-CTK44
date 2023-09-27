@@ -1,3 +1,0 @@
-﻿  Program.cpp
-E:\Nguyên lý lập trình cấu trúc\NLLTCT-CTK44\Lab06\BaiTapThem\Lab06_F_Bai1\Lab06_F_Bai1\ThuVien.h(11,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Lab06_F_Bai1.vcxproj -> E:\Nguyên lý lập trình cấu trúc\NLLTCT-CTK44\Lab06\BaiTapThem\Lab06_F_Bai1\x64\Debug\Lab06_F_Bai1.exe
