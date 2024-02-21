@@ -7,6 +7,8 @@ using namespace std;
 
 #define MAX 100
 
+void ChayChuongTrinh();
+
 int main()
 {
 	ChayChuongTrinh();
