@@ -1,4 +1,4 @@
-<strong>Môn học "Nguyên lý lập trình cấu trúc"</strong>
+<strong>Môn học "Nguyên lý lập trình cấu trúc"</strong> <b>ĐÃ HOÀN THÀNH</b>
 
 Lớp: CTK44A
 
