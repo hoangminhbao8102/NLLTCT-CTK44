@@ -1,4 +1,4 @@
-<strong>Môn học "Nguyên lý lập trình cấu trúc"</strong> <b style="background-color:Red;">ĐÃ HOÀN THÀNH</b>
+<strong>Môn học "Nguyên lý lập trình cấu trúc"</strong>
 
 Lớp: CTK44A
 
@@ -17,3 +17,5 @@ Giáo viên giảng dạy: Thầy Trần Tuấn Minh
 Giáo viên hướng dẫn thực hành: Thầy Nguyễn Minh Hiệp
 
 Link Github: https://github.com/hoangminhbao8102/NLLTCT-CTK44
+
+<h1 style="color:Red;">ĐÃ HOÀN THÀNH</h1>
