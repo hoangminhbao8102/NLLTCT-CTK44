@@ -2,7 +2,7 @@
 int ChonMenu(int SoMenu);
 void XuLyMenu(int menu, TaiLieu& tl);
 
-extern vector<TaiLieu> danhSach; // Giả sử bạn lưu danh sách tài liệu trong một vector
+std::vector<TaiLieu> danhSach; // Giả sử bạn lưu danh sách tài liệu trong một vector
 
 void XuatMenu()
 {
@@ -111,5 +111,4 @@ void XuLyMenu(int menu, TaiLieu& tl)
 		SapXepTheoTuaDe(danhSach.data(), danhSach.size());
 		break;
 	}
-	_getch();
 }

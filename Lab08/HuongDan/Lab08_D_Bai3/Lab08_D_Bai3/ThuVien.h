@@ -22,7 +22,7 @@ struct BangDiem_ChiTiet
 	double DiemTK;
 };
 
-void Chen_SV(char maSV[8], char hoLot[15], char ten[7], char gioiTinh[3], unsigned int namSinh, char queQuan[15], char lop[7], SinhVien a[MAX], int& n);
+void Chen_SV(const char maSV[8], const char hoLot[15], const char ten[7], const char gioiTinh[3], unsigned int namSinh, const char queQuan[15], const char lop[7], SinhVien a[MAX], int& n);
 void TaoDanhSachSinhVien(SinhVien a[MAX], int& n);
 void XuatKeNgangDoi();
 void XuatKeNgangDon();
@@ -30,7 +30,7 @@ void XuatTieuDe();
 void Xuat_1SV(SinhVien p);
 void Xuat_DSSV(SinhVien a[MAX], int n);
 
-void Chen_Diem(char maSV[8], double diemLab, double baiKTGK, double baiKTCK, BangDiem_ChiTiet bd[MAX], int& n);
+void Chen_Diem(const char maSV[8], double diemLab, double baiKTGK, double baiKTCK, BangDiem_ChiTiet bd[MAX], int& n);
 void TaoBangDiem_ChiTiet(BangDiem_ChiTiet bd[MAX], int& n);
 void TinhDiemTongKet(BangDiem_ChiTiet bd[MAX], int& n);
 void XuatTieuDe_bd();
@@ -39,7 +39,7 @@ void Xuat_BangDiem_ChiTiet(BangDiem_ChiTiet bd[MAX], int n);
 
 void XuatBangDiem_ChinhThuc(SinhVien a[MAX], BangDiem_ChiTiet bd[MAX], int n);
 
-void Chen_SV(char maSV[8], char hoLot[15], char ten[7], char gioiTinh[3], unsigned int namSinh, char queQuan[15], char lop[7], SinhVien a[MAX], int& n)
+void Chen_SV(const char maSV[8], const char hoLot[15], const char ten[7], const char gioiTinh[3], unsigned int namSinh, const char queQuan[15], const char lop[7], SinhVien a[MAX], int& n)
 {
 	if (n < MAX)
 	{
@@ -150,7 +150,7 @@ void Xuat_DSSV(SinhVien a[MAX], int n)
 	XuatKeNgangDoi();
 }
 
-void Chen_Diem(char maSV[8], double diemLab, double baiKTGK, double baiKTCK, BangDiem_ChiTiet bd[MAX], int& n)
+void Chen_Diem(const char maSV[8], double diemLab, double baiKTGK, double baiKTCK, BangDiem_ChiTiet bd[MAX], int& n)
 {
 	if (n < MAX)
 	{
@@ -283,7 +283,7 @@ void XuatBangDiem_ChinhThuc(SinhVien a[MAX], BangDiem_ChiTiet bd[MAX], int n)
 			<< ':'
 			<< setw(6) << a[i].Lop
 			<< ':'
-			<< setw(8) << setiosflags(ios::fixed) << setprecision(1) << bd[i].diemTK
+			<< setw(8) << setiosflags(ios::fixed) << setprecision(1) << bd[i].DiemTK
 			<< ':';
 		if ((i + 1) % 5 == 0)
 			cout << endl << ":---------------------------------------------------------------------------:";

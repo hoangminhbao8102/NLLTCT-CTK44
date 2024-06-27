@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <conio.h>
 
 using namespace std;
@@ -16,13 +16,14 @@ int main()
 
 void ChayChuongTrinh()
 {
-	int menu,
-		SoMenu = 12,
-		n = 0;
-	PhanSo a, b;
-	do
-	{
-		menu = ChonMenu(SoMenu);
-		XuLyMenu(menu, a, b, n);
-	} while (menu > 0);
+    int menu,
+        SoMenu = 12,
+        n = 0;
+    PhanSo a = PhanSo();  // Khởi tạo a
+    PhanSo b = PhanSo();  // Khởi tạo b
+    do
+    {
+        menu = ChonMenu(SoMenu);
+        XuLyMenu(menu, a, b, n);
+    } while (menu > 0);
 }

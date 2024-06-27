@@ -59,9 +59,10 @@ void XuLyMenu(int menu, SinhVien a[MAX], int& n)
 	case 3:
 		system("CLS");
 		cout << "\n3. Xem bang diem day du\n";
-		if (strcmpi(a[1].XepLoai, " ") == 0)
+		if (_strcmpi(a[1].XepLoai, " ") == 0)
 			cout << "\nVui long chon chuc nang 9 de xep loai truoc khi vao chuc nang nay";
-		else XuatDS_DD(a, n);
+		else
+			XuatDS_DD(a, n);
 		break;
 	case 4:
 		system("CLS");

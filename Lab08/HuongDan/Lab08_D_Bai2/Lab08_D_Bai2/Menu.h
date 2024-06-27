@@ -104,5 +104,4 @@ void XuLyMenu(int menu, PhanSo a, PhanSo b, int& n)
 		}
 		break;
 	}
-	_getch();
 }

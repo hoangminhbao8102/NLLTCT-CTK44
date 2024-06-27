@@ -2,9 +2,9 @@
 int ChonMenu(int SoMenu);
 void XuLyMenu(int menu, MatHang& mh);
 
-extern MatHang* danhSach; // Giả sử biến này đã được khai báo ở nơi khác
-extern int soLuongMatHang;
-extern tm ngayHienTai; // Giả sử ngày hiện tại đã được cập nhật đúng
+struct MatHang* danhSach = nullptr;  // Khởi tạo với nullptr
+int soLuongMatHang = 0;               // Khởi tạo số lượng mặt hàng
+struct tm ngayHienTai = {};           // Khởi tạo cấu trúc tm
 
 void XuatMenu()
 {
@@ -98,5 +98,4 @@ void XuLyMenu(int menu, MatHang& mh)
         cout << "Bia re nhat: " << biaReNhat.ten << " - Gia: " << biaReNhat.donGia;
         break;
     }
-    _getch(); // Dừng màn hình cho đến khi nhấn một phím
 }
