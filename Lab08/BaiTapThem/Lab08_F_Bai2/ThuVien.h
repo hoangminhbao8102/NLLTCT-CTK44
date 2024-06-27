@@ -14,14 +14,14 @@ struct TaiLieu
 void NhapTaiLieu(TaiLieu& tl);
 void XuatTaiLieu(const TaiLieu& tl);
 double TinhTongGiaTaiLieu(const TaiLieu* danhSach, int soLuong);
-void TimTaiLieuTheoNhaXuatBanVaNam(const TaiLieu* danhSach, int soLuong, const string& nhaXuatBan, int nam);
-void TimBaiBaoKhoaHocCuaTacGia(const TaiLieu* danhSach, int soLuong, const string& tacGia);
-void ThongKeSoLuongTheoLoai(const TaiLieu* danhSach, int soLuong);
-void XuatTaiLieuDatNhat(const TaiLieu* danhSach, int soLuong);
-void LietKeTheoNamXuatBan(const TaiLieu* danhSach, int soLuong);
-void TaiLieuNhieuTacGiaNhat(const TaiLieu* danhSach, int soLuong);
-void XemTaiLieuTheoMa(const TaiLieu* danhSach, int soLuong, const char* maTaiLieu);
-void SapXepTheoTuaDe(TaiLieu* danhSach, int soLuong);
+void TimTaiLieuTheoNhaXuatBanVaNam(const TaiLieu* danhSach, size_t soLuong, const string& nhaXuatBan, int nam);
+void TimBaiBaoKhoaHocCuaTacGia(const TaiLieu* danhSach, size_t soLuong, const string& tacGia);
+void ThongKeSoLuongTheoLoai(const TaiLieu* danhSach, size_t soLuong);
+void XuatTaiLieuDatNhat(const TaiLieu* danhSach, size_t soLuong);
+void LietKeTheoNamXuatBan(const TaiLieu* danhSach, size_t soLuong);
+void TaiLieuNhieuTacGiaNhat(const TaiLieu* danhSach, size_t soLuong);
+void XemTaiLieuTheoMa(const TaiLieu* danhSach, size_t soLuong, const char* maTaiLieu);
+void SapXepTheoTuaDe(TaiLieu* danhSach, size_t soLuong);
 
 void NhapTaiLieu(TaiLieu& tl) 
 {
@@ -70,7 +70,7 @@ double TinhTongGiaTaiLieu(const TaiLieu* danhSach, int soLuong)
     return tongGia;
 }
 
-void TimTaiLieuTheoNhaXuatBanVaNam(const TaiLieu* danhSach, int soLuong, const string& nhaXuatBan, int nam) 
+void TimTaiLieuTheoNhaXuatBanVaNam(const TaiLieu* danhSach, size_t soLuong, const string& nhaXuatBan, int nam)
 {
     bool found = false;
     for (int i = 0; i < soLuong; ++i) 
@@ -87,7 +87,7 @@ void TimTaiLieuTheoNhaXuatBanVaNam(const TaiLieu* danhSach, int soLuong, const s
     }
 }
 
-void TimBaiBaoKhoaHocCuaTacGia(const TaiLieu* danhSach, int soLuong, const string& tacGia) 
+void TimBaiBaoKhoaHocCuaTacGia(const TaiLieu* danhSach, size_t soLuong, const string& tacGia)
 {
     for (int i = 0; i < soLuong; ++i) 
     {
@@ -98,7 +98,7 @@ void TimBaiBaoKhoaHocCuaTacGia(const TaiLieu* danhSach, int soLuong, const strin
     }
 }
 
-void ThongKeSoLuongTheoLoai(const TaiLieu* danhSach, int soLuong) 
+void ThongKeSoLuongTheoLoai(const TaiLieu* danhSach, size_t soLuong)
 {
     int sach = 0, bao = 0, tapChi = 0, luanVan = 0;
     for (int i = 0; i < soLuong; ++i) {
@@ -113,7 +113,7 @@ void ThongKeSoLuongTheoLoai(const TaiLieu* danhSach, int soLuong)
     cout << "Sach: " << sach << ", Bao Khoa Hoc: " << bao << ", Tap Chi: " << tapChi << ", Luan Van: " << luanVan << endl;
 }
 
-void XuatTaiLieuDatNhat(const TaiLieu* danhSach, int soLuong) 
+void XuatTaiLieuDatNhat(const TaiLieu* danhSach, size_t soLuong)
 {
     double giaCaoNhat = 0;
     for (int i = 0; i < soLuong; ++i) 
@@ -132,7 +132,7 @@ void XuatTaiLieuDatNhat(const TaiLieu* danhSach, int soLuong)
     }
 }
 
-void LietKeTheoNamXuatBan(const TaiLieu* danhSach, int soLuong) 
+void LietKeTheoNamXuatBan(const TaiLieu* danhSach, size_t soLuong)
 {
     int namMin = danhSach[0].namXuatBan, namMax = danhSach[0].namXuatBan;
     for (int i = 1; i < soLuong; ++i) 
@@ -159,7 +159,7 @@ void LietKeTheoNamXuatBan(const TaiLieu* danhSach, int soLuong)
     }
 }
 
-void TaiLieuNhieuTacGiaNhat(const TaiLieu* danhSach, int soLuong) 
+void TaiLieuNhieuTacGiaNhat(const TaiLieu* danhSach, size_t soLuong)
 {
     int maxCount = 0;
     const TaiLieu* result = nullptr;
@@ -181,7 +181,7 @@ void TaiLieuNhieuTacGiaNhat(const TaiLieu* danhSach, int soLuong)
     }
 }
 
-void XemTaiLieuTheoMa(const TaiLieu* danhSach, int soLuong, const char* maTaiLieu) 
+void XemTaiLieuTheoMa(const TaiLieu* danhSach, size_t soLuong, const char* maTaiLieu)
 {
     for (int i = 0; i < soLuong; ++i) 
     {
@@ -194,7 +194,7 @@ void XemTaiLieuTheoMa(const TaiLieu* danhSach, int soLuong, const char* maTaiLie
     cout << "Khong tim thay tai lieu voi ma: " << maTaiLieu << endl;
 }
 
-void SapXepTheoTuaDe(TaiLieu* danhSach, int soLuong) 
+void SapXepTheoTuaDe(TaiLieu* danhSach, size_t soLuong)
 {
     sort(danhSach, danhSach + soLuong, [](const TaiLieu& a, const TaiLieu& b) 
         {
