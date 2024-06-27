@@ -2,11 +2,11 @@
 int ChonMenu(int SoMenu);
 void XuLyMenu(int menu);
 
-extern Card* deck;            // Giả sử bạn đã khai báo bộ bài ở nơi khác
-extern Player* players;       // Giả sử bạn đã khai báo mảng người chơi ở nơi khác
-extern int numPlayers;        // Số lượng người chơi
-extern int handSize;          // Số bài trên tay mỗi người chơi
-extern int currentBet;        // Mức cược hiện tại
+struct Card* deck;            // Giả sử bạn đã khai báo bộ bài ở nơi khác
+struct Player* players;       // Giả sử bạn đã khai báo mảng người chơi ở nơi khác
+int numPlayers;				  // Số lượng người chơi
+int handSize;				  // Số bài trên tay mỗi người chơi
+int currentBet;				  // Mức cược hiện tại
 
 
 void XuatMenu()
