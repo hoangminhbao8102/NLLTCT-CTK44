@@ -14,7 +14,7 @@ struct SinhVien
 	double Diem;
 };
 
-void Chen_SV(char* maSV, char* hoLot, char* ten, char* gioiTinh, unsigned namSinh, char* queQuan, char* lop, double diem, SinhVien* a, int& n);
+void Chen_SV(const char* maSV, const char* hoLot, const char* ten, const char* gioiTinh, unsigned namSinh, const char* queQuan, const char* lop, double diem, SinhVien* a, int& n);
 void TaoDanhSachSinhVien(SinhVien* a, int& n);
 void XuatKeNgangDoi();
 void XuatKeNgangDon();
@@ -22,13 +22,13 @@ void XuatTieuDe();
 void Xuat_1SV(SinhVien p);
 void Xuat_DSSV(SinhVien* a, int n);
 void Sap_DSSV_GiamDiem(SinhVien* a, int n);
-void DSSV_Lop(SinhVien* a, int n, char lop[7], SinhVien* dsLop, int& h);
-void Xuat_DSSV_Lop(SinhVien* a, int n, char lop[7]);
-void Sap_DSSV_Lop_GiamDiem(SinhVien* a, int n, char lop[7], SinhVien* dsLop, int& h);
-void Xuat_DSSV_Lop_Giam_Diem(SinhVien* a, int n, char lop[7]);
-void ThongKe_ChatLuong(SinhVien* a, int n, char lop[7]);
+void DSSV_Lop(SinhVien* a, int n, const char lop[7], SinhVien* dsLop, int& h);
+void Xuat_DSSV_Lop(SinhVien* a, int n, const char lop[7]);
+void Sap_DSSV_Lop_GiamDiem(SinhVien* a, int n, const char lop[7], SinhVien* dsLop, int& h);
+void Xuat_DSSV_Lop_Giam_Diem(SinhVien* a, int n, const char lop[7]);
+void ThongKe_ChatLuong(SinhVien* a, int n, const char lop[7]);
 
-void Chen_SV(char* maSV, char* hoLot, char* ten, char* gioiTinh, unsigned namSinh, char* queQuan, char* lop, double diem, SinhVien* a, int& n)
+void Chen_SV(const char* maSV, const char* hoLot, const char* ten, const char* gioiTinh, unsigned namSinh, const char* queQuan, const char* lop, double diem, SinhVien* a, int& n)
 {
 	if (n < MAX)
 	{
@@ -169,7 +169,7 @@ void Sap_DSSV_GiamDiem(SinhVien* a, int n)
 	}
 }
 
-void DSSV_Lop(SinhVien* a, int n, char lop[7], SinhVien* dsLop, int& h)
+void DSSV_Lop(SinhVien* a, int n, const char lop[7], SinhVien* dsLop, int& h)
 {
 	int kq = n;
 	int i;
@@ -193,7 +193,7 @@ void DSSV_Lop(SinhVien* a, int n, char lop[7], SinhVien* dsLop, int& h)
 	}
 }
 
-void Xuat_DSSV_Lop(SinhVien* a, int n, char lop[7])
+void Xuat_DSSV_Lop(SinhVien* a, int n, const char lop[7])
 {
 	SinhVien* dsLop;
 	int i, h;
@@ -216,7 +216,7 @@ void Xuat_DSSV_Lop(SinhVien* a, int n, char lop[7])
 	delete[]dsLop;
 }
 
-void Sap_DSSV_Lop_GiamDiem(SinhVien* a, int n, char lop[7], SinhVien* dsLop, int& h)
+void Sap_DSSV_Lop_GiamDiem(SinhVien* a, int n, const char lop[7], SinhVien* dsLop, int& h)
 {
 	SinhVien t;
 	int i, j;
@@ -236,7 +236,7 @@ void Sap_DSSV_Lop_GiamDiem(SinhVien* a, int n, char lop[7], SinhVien* dsLop, int
 	}
 }
 
-void Xuat_DSSV_Lop_Giam_Diem(SinhVien* a, int n, char lop[7])
+void Xuat_DSSV_Lop_Giam_Diem(SinhVien* a, int n, const char lop[7])
 {
 	SinhVien* dsLop;
 	int i, h;
@@ -259,7 +259,7 @@ void Xuat_DSSV_Lop_Giam_Diem(SinhVien* a, int n, char lop[7])
 	delete[]dsLop;
 }
 
-void ThongKe_ChatLuong(SinhVien* a, int n, char lop[7])
+void ThongKe_ChatLuong(SinhVien* a, int n, const char lop[7])
 {
 	SinhVien* dsLop;
 	int h = 0;

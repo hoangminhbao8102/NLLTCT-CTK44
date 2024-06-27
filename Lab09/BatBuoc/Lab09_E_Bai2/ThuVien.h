@@ -1,12 +1,12 @@
-#define MAX 100
+﻿#define MAX 100
 
 typedef char* ChuoiDong;
 
 int DemKhoangTrang(ChuoiDong s);
 int ViTri_Chuoi(ChuoiDong s, ChuoiDong t);
 int ViTri_DT_x(ChuoiDong s, char x);
-void DaoTu(ChuoiDong s);
-void DoiChuHoa(ChuoiDong s);
+void DaoTu(char* s);
+void DoiChuHoa(char* s);
 int DemKyTu(ChuoiDong s, char x);
 void LietKeKyTu(ChuoiDong s);
 int DemTu(ChuoiDong s);
@@ -43,30 +43,38 @@ int ViTri_DT_x(ChuoiDong s, char x)
 	return vt;
 }
 
-void DaoTu(ChuoiDong s)
+void DaoTu(char* s) 
 {
-	char* t, a[MAX];
+	char* t = NULL; // Khởi tạo t với NULL
+	char a[MAX];
 	int l = strlen(s);
-	for (int i = l - 1; i >= 0; i--)
-		if (s[i] == ' ')
+	for (int i = l - 1; i >= 0; i--) 
+	{
+		if (s[i] == ' ') 
 		{
 			t = s + i + 1;
 			s[i] = '\0';
 			break;
 		}
-	strcpy_s(a, MAX, strstr(s, " "));
-	l = strlen(s) - strlen(strstr(s, " "));
-	s[l] = '\0';
-	strcat(strcat(strcat(t, a), " "), s);
-	strcpy_s(s, MAX, t);
+	}
+	if (t) 
+	{  // Kiểm tra t đã được gán chưa trước khi sử dụng
+		strcpy_s(a, MAX, strstr(s, " "));
+		l = strlen(s) - strlen(strstr(s, " "));
+		s[l] = '\0';
+		strcat_s(t, MAX - (t - s), a);
+		strcat_s(t, MAX - (t - s), " ");
+		strcat_s(t, MAX - (t - s), s);
+		strcpy_s(s, MAX, t);
+	}
 }
 
-void DoiChuHoa(ChuoiDong s)
+void DoiChuHoa(char* s)  // Giả sử bạn đang sử dụng kiểu char* cho ChuoiDong
 {
-	char temp;
-	_strlwr(s);
-	temp = *(s + 0) - 32;
-	*(s + 0) = temp;
+	if (s == NULL || *s == '\0') return;  // Kiểm tra chuỗi không phải là NULL và không rỗng
+
+	_strlwr_s(s, strlen(s) + 1);  // Chuyển đổi toàn bộ chuỗi thành chữ thường
+	s[0] = toupper(s[0]);  // Chuyển ký tự đầu tiên thành chữ hoa
 }
 
 int DemKyTu(ChuoiDong s, char x)

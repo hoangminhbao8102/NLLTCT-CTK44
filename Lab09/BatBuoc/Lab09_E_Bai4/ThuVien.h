@@ -13,7 +13,7 @@ struct TaiLieu
 	unsigned long Gia;
 };
 
-void ChenTL(char* MaTL, char* TuaDe, char* LoaiTL, unsigned NamXB, char* TacGia, char* NhaXB, unsigned long Gia, TaiLieu* a, int& n);
+void ChenTL(const char* MaTL, const char* TuaDe, const char* LoaiTL, unsigned NamXB, const char* TacGia, const char* NhaXB, unsigned long Gia, TaiLieu* a, int& n);
 void TaoDanhSach(TaiLieu* a, int& n);
 void XuatKeNgangDoi();
 void XuatKeNgangDon();
@@ -23,7 +23,7 @@ void XuatDanhSach(TaiLieu* a, int n);
 unsigned long TinhTongGia(TaiLieu* a, int n);
 void TimSach_NhaXB_TheoNamXB(TaiLieu* a, int n, char* NhaXB, unsigned NamXB);
 void TimBaiBaoKH_TheoTacGia(TaiLieu* a, int n, char* tacGia);
-int ThongKe_SoLuong_TheoLoai(TaiLieu* a, int n, char* loaiTaiLieu);
+int ThongKe_SoLuong_TheoLoai(TaiLieu* a, int n, const char* loaiTaiLieu);
 void TimTaiLieu_TheoNam(TaiLieu* a, int n, unsigned nam);
 void LayTatCa_NamXB(TaiLieu* a, int n, int* danhSachNam, int& soNam);
 void HoanVi_SoNguyen(int& a, int& b);
@@ -33,7 +33,7 @@ void XuatDanhSach_TheoNam(TaiLieu* a, int n);
 void TimTaiLieu_TheoMaTaiLieu(TaiLieu* a, int n, char* maTL);
 void SapXep_TaiLieu_TuaDe(TaiLieu* a, int n);
 
-void ChenTL(char* MaTL, char* TuaDe, char* LoaiTL, unsigned NamXB, char* TacGia, char* NhaXB, unsigned long Gia, TaiLieu* a, int& n)
+void ChenTL(const char* MaTL, const char* TuaDe, const char* LoaiTL, unsigned NamXB, const char* TacGia, const char* NhaXB, unsigned long Gia, TaiLieu* a, int& n)
 {
 	if (n < MAX)
 	{
@@ -190,7 +190,7 @@ void TimBaiBaoKH_TheoTacGia(TaiLieu* a, int n, char* tacGia)
 	XuatKeNgangDoi();
 }
 
-int ThongKe_SoLuong_TheoLoai(TaiLieu* a, int n, char* loaiTaiLieu)
+int ThongKe_SoLuong_TheoLoai(TaiLieu* a, int n, const char* loaiTaiLieu)
 {
 	int soLuong = 0;
 	for (int i = 0; i < n; i++)
